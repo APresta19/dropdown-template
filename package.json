@@ -1,0 +1,29 @@
+{
+  "name": "dropdown-template",
+  "version": "1.0.0",
+  "description": "Dropdown Template",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/APresta19/dropdown-template.git"
+  },
+  "keywords": [
+    "dropdown"
+  ],
+  "author": "andrew",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/APresta19/dropdown-template/issues"
+  },
+  "homepage": "https://github.com/APresta19/dropdown-template#readme",
+  "devDependencies": {
+    "eslint": "^9.5.0",
+    "globals": "^15.6.0",
+    "html-webpack-plugin": "^5.6.0",
+    "webpack": "^5.92.1",
+    "webpack-cli": "^5.1.4"
+  }
+}

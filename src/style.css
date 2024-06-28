@@ -1,0 +1,93 @@
+body
+{
+    background-color: coral;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+h1
+{
+    background-color: aliceblue;
+    padding: 10px;
+    margin: 0;
+}
+.dropbtn {
+    background-color: #3498DB;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+  }
+  .dropbtn:hover, .dropbtn:focus {
+    background-color: #2980B9;
+  }
+.dropdown-content
+{
+    display: none;
+    position: absolute;
+    z-index: 1;
+}
+#container
+{
+    position: relative;
+    display: inline-block;
+}
+#container div div
+{
+    padding: 25px;
+    background-color: azure;
+    text-decoration: none;
+    display: block;
+}
+#container div div:hover
+{
+    background-color: rgb(223, 238, 238);
+}
+.show
+{
+    display: block;
+}
+#pictures img
+{
+    position: absolute;
+}
+#left-arrow
+{
+    position: relative;
+    z-index: 1;
+    font-size: 70px;
+    top: 200px;
+    left: 20px;
+    background: none;
+    border: none;
+    text-shadow: rgb(0, 0, 0) 1px 0 5px;
+    color: white;
+}
+#right-arrow
+{
+    position: relative;
+    z-index: 1;
+    font-size: 70px;
+    top: 200px;
+    left: 94%;
+    background: none;
+    border: none;
+    text-shadow: rgb(0, 0, 0) 1px 0 5px;
+    color: white;
+}
+#circles
+{
+    position: relative;
+    z-index: 1;
+    top: 350px;
+    left: 50%;
+    display: flex;
+}
+#circles div
+{
+    border: 3px solid black;
+    border-radius: 50%;
+    text-shadow: rgb(0, 0, 0) 1px 0 5px;
+    background-color: none;
+    width: 20px;
+    height: 20px;
+}
